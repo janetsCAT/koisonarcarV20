@@ -1,0 +1,29 @@
+{
+    "name": "koi+sonar car 1.0 - Copy",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "koi2": "github:kittenbot/pxt-koi2#v0.2.12",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
